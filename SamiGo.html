@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SamiGo!</title>
+    <link rel="stylesheet" href="./SamiGo.css" />
+    <link rel="shortcut icon" href="./Assets/Samisfaceicon.ico" type="image/x-icon">
+
+    <audio id="bkmusic" controls loop autoplay>
+      <source src="./Assets/backgroundmusic.mp3" type="audio/mp3">
+    </audio>
+    <audio id="coffeCupObtained">
+      <source type="audio/wav" class="bksound">
+    </audio>
+    <audio id="coffeCupObtained2">
+      <source type="audio/wav" class="bksound">
+    </audio>
+    <audio id="victoryaudio">
+      <source src="./Assets/yay.wav" type="audio/wav">
+    </audio>
+    <audio id="oops">
+      <source type="audio/wav" class="bksound">
+    </audio>
+  </head>
+
+  <body>
+    
+    <div class="warning-message-container" id="warning-message">
+      <div class="warning-message">
+        <div class="warning-message-content">
+          <p>This page is currently not resposive :(</p>
+          <img class="warning-message-img" src="./Assets/gears.gif">
+            <p>sorry, but this page still not resposive yet, i'm still working on it. until now it'll work if your screen's width is 1200 or more</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper" id="wrapper">
+      
+      <div class="box">
+        <img src="./Assets/Abigcoffee.png" />
+        <img src="./Assets/Abigcoffee.png" />
+        <img src="./Assets/Apaw.png" />
+        <img src="./Assets/Aglasses.png" />
+        <img src="./Assets/ASmallCup.png" />
+        <img src="./Assets/Apaw.png" />
+        <img src="./Assets/AILW.png" />
+        <img src="./Assets/AController.png" />
+        <img src="./Assets/AILW.png" />
+        <img src="./Assets/Aglasses.png" />
+        <img src="./Assets/AController.png" />
+        <img src="./Assets/ASmallCup.png" />
+      </div>
+
+      <a href="./index.html" class="back-bottom">🡨</a>
+      
+      <div class="toggle-sounds">
+        <img class="musicon" id="mutebtn">
+        <img class="soundon" id="mutebtn2">
+      </div>
+
+      <div class="game-components">
+        <div class="welcome" id="welcome">
+          <img src="./Assets/textboxes.png" class="textbox"/>
+          <img src="./Assets/Sami-welcome.png" alt="Sami"/>
+          <button id="play">Play!</button>
+        </div>
+
+        <canvas id="canvas"></canvas>
+
+        <div class="gameover" id="gameover">
+          <h3 id="gameover-text">
+            <span id="gameover-word">Game Over</span> Sami couldn't stay focused and he ran into so much
+            errors. Sami couldn't finish his work in time. Sami is a depressed
+            programmer now.
+          </h3>
+          <img src="./Assets/gameOver.png" alt="Sami"/>
+          <button id="tryAgain">Try again</button>
+        </div>
+
+        <div class="victory" id="victory">
+          <h3 id="victory-text">
+            <span id="congradulations">Congradulations!</span> You managed to help Sami finish his work without
+            getting any errors, now Sami is free and can go buy more coffee.
+          </h3>
+          <img src="./Assets/victory.png" alt="Sami"/>
+          <button id="pLayAgain">PLay again</button>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="./game.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
