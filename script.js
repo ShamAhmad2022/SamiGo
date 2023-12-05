@@ -155,5 +155,5 @@ document.addEventListener("DOMContentLoaded", function() {
         coffeCupObtained2.src="./Assets/CoffeCupObtained2.wav";
       }
     });
-    
+
 });

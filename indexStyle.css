@@ -150,6 +150,77 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.scroll-down{
+    position: absolute;
+    top: 25vh;
+    left: -1.5vmax;
+    transform: rotate(90deg);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: downArrow 1.5s linear infinite;
+    opacity: 0;
+}
+
+.scroll-down:hover{
+    background-color: white;
+}
+
+.scroll-down:hover a:link, .scroll-down:hover a:visited, .scroll-down:hover a:active, .scroll-down:hover a:hover{
+    color: rgb(7, 50, 92);
+}
+
+@keyframes downArrow{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        top: 40vh;
+    }
+}
+
+.scroll-down a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    border: 3px solid white;
+    font-size: calc(1vw + 20px);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.scroll-down a:link, .scroll-down a:visited, .scroll-down a:active, .scroll-down a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.play-fixed{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 1vw;
+    right: 3vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.play-fixed a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(7, 50, 92);
+    font-weight: 900;
+    /* padding: 25px; */
+}
+
+.play-fixed a:link, .play-fixed a:visited, .play-fixed a:active, .play-fixed a:hover{
+    color: rgb(7, 50, 92);
+}
+
 .tutorials {
     width: 100%;
     background-image: linear-gradient(to left top, rgba(139, 170, 187, 0.223), #f2f3fad8), url('./Assets/tutorialsectionbk.png');
@@ -805,6 +876,15 @@ body {
     
     .playvideolink{
         margin-top: 20px;
+    }
+
+    .scroll-down{
+        top: 35vh;
+    }
+
+    .play-fixed{
+        bottom: 3vw;
+        right: 3vh;
     }
 
     .first-cards {
