@@ -10,7 +10,7 @@
 
   <body>
     
-    <header class="index-header">
+    <header class="index-header" id="header">
       <div class="header-content">
         <div class="GIF-effect"></div>
         <div class="sami-GIF"></div>
@@ -24,7 +24,7 @@
             bugs you'll lose
           </p>
           <div class="header-links">
-            <a href="./SamiGo.html" class="play-game">PLAY</a>
+            <a href="./SamiGo.html" class="play-game" id="play-button">PLAY</a>
             <a href="https://drive.google.com/file/d/1YpN-74IL_-I6WrQfe0_EL9M4ysCHRgk8/view?usp=sharing" target="_blank" class="playvideolink">
               <div class="playvideo-comp">
                 <img src="./Assets/playbutton.png" width="40">
@@ -33,8 +33,16 @@
             </a>
           </div>
         </div>
+        <div class="scroll-down">
+          <a href="#tutorialsID">></a>
+        </div>
       </div>
+      <div id="tutorialsID"></div>
     </header>
+
+    <div class="play-fixed">
+      <a href="#header" id="play-fixed">Play</a>
+    </div>
 
     <section class="tutorials">
       <div class="tutorials-container">
