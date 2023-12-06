@@ -19,13 +19,14 @@
 <br>
 <br>
 <br>
+
 <p>- Be careful to not run into any errors or bugs:</p>
 <br>
 <div align="center">
-<img src="./Assets/error1.png" alt="big coffe cup" width="100">
-<img src="./Assets/error2.png" alt="small coffee cup"width="100">
-<img src="./Assets/error3.png" alt="small coffee cup"width="100">
-<img src="./Assets/error4.png" alt="small coffee cup"width="100">
+<img src="./Assets/error1.png" alt="error" width="100">
+<img src="./Assets/error2.png" alt="error"width="100">
+<img src="./Assets/error3.png" alt="error"width="100">
+<img src="./Assets/error4.png" alt="error"width="100">
 </div>
 
 
@@ -35,8 +36,8 @@
 <p>Enjoy ^-^</p>
 
 <h2>Screenshots:</h2>
-<img src="./Assets/Screenshot1.png" alt="small coffee cup">
-<img src="./Assets/Screenshot2.png" alt="small coffee cup">
+<img src="./Assets/Screenshot1.png" alt="screenshot 1">
+<img src="./Assets/Screenshot2.png" alt="screenshot 2">
 
 <h2>creator's notes:</h2>
 <p>- I built this game using plain HTML, CSS and JS.</p>
