@@ -1,6 +1,5 @@
 <h1>SAMI GO! <small>1.2.0</small></h1>
-<p><a href="https://shamahmad2022.github.io/SamiGo/index.html">Press to play</a></p>
-<p><a href="https://drive.google.com/file/d/1YpN-74IL_-I6WrQfe0_EL9M4ysCHRgk8/view">Watch Video</a></p>
+<p><a href="https://shamahmad2022.github.io/SamiGo/index.html">Press to play </a> | <a href="https://drive.google.com/file/d/1YpN-74IL_-I6WrQfe0_EL9M4ysCHRgk8/view"> Watch Video</a></p>
 <a href="https://shamahmad2022.github.io/SamiGo/index.html"><img src="./Assets/samigomk.png" alt="logo"></a>
 
 <h2>Description</h2>
@@ -36,11 +35,13 @@
 <p>Enjoy ^-^</p>
 
 <h2>Screenshots:</h2>
+<img src="./Assets/Screenshot1.png" alt="small coffee cup">
+<img src="./Assets/Screenshot2.png" alt="small coffee cup">
 
 <h2>creator's notes:</h2>
-<p>- I built this game using plain HTML, CSS and JS, it was my first time making a game with JS</p>
-<p>- As a digital artist, i was responsible for drawing every and each single drawing or background or i icon in the website</p>
-<p>- I will keep working on the game and adding new features, such as../p>
+<p>- I built this game using plain HTML, CSS and JS.</p>
+<p>- As a digital artist, i was responsible for drawing most of the assets and backgrounds in the website. of course I thought about using assets from the internet, but nothing matched my style or what was in my mind, so it's a good thing to be both an artist and a programmer :) </p>
+<p>- I still have so many thoughts to add them to the game, so I'll keep working on the game and add new features, such as selecting different characters and add some challenges.</p>
 
-<h2>License</h2>
-<a href="https://choosealicense.com/licenses/mit/">MIT</a>
+<h2>Copyright and License</h2>
+<p>Copyright 2023 Sham Al-Jalam. <a href="https://choosealicense.com/licenses/mit/"> MIT License </a></p>
