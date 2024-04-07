@@ -37,7 +37,11 @@
 
 <h2>Screenshots:</h2>
 <img src="./Assets/Screenshot1.png" alt="screenshot 1">
-<img src="./Assets/Screenshot2.png" alt="screenshot 2">
+<img src="./Assets/tutorialsc.png" alt="screenshot 2">
+<img src="./Assets/aboutsc.png" alt="screenshot 3">
+<img src="./Assets/Screenshot2.png" alt="screenshot 4">
+<img src="./Assets/gameoversc.png" alt="screenshot 5">
+<img src="./Assets/victorysc.png" alt="screenshot 6">
 
 <h2>creator's notes:</h2>
 <p>- I built this game using plain HTML, CSS and JS.</p>
