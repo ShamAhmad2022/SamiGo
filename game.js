@@ -1,5 +1,7 @@
 "use strict";
 
+console.log("Responsiveness");
+
 //canvas
 let canvas;
 let canvasWidth = 1200;
